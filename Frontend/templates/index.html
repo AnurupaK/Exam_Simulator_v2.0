@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/13.0.3/math.js"></script>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css"> 
+    <title>Exam Simulator</title>
+</head>
+
+<body>
+
+    <!--The header and navbar section-->
+    <div class="header">
+        <div class="logo">🕮 EXAM SIMULATOR</div>
+        <div class="section">
+            <div class="nav1  nav">🔭 Student Area</div>
+            <div class="nav2  nav">🎲 Application</div>
+        </div>
+    </div>
+
+
+    <!--The main section-->
+    <div class="main" id="main-content">
+        <!--The student and application part will be loaded here-->
+    </div>
+
+
+    <div class="footer">
+        <div class="copyright">&copy; Anurupa Karmakar 2024</div>
+        <div class="social_logo">
+            <div class="social1 social"><a target="_blank" href="https://github.com/AnurupaK"
+                    aria-label="GitHub profile">
+                    <i class="fab fa-github"></i> Github
+                </a></div>
+            <div class="social2 social"><a target="_blank"
+                    href="https://www.linkedin.com/in/anurupa-karmakar-a1b82a174/" aria-label="LinkedIn profile">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a></div>
+            <div class="social3 social"><a target="_blank" href="https://x.com/Anurupa_K" aria-label="Twitter profile">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a></div>
+        </div>
+    </div>
+
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+
+</body>
+
+</html>
