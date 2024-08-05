@@ -110,8 +110,8 @@ The app is deployed on Render. To deploy the app:
 
 ## Platform Compatibility 🖥️
 
-Desktop Application: This app is designed and recommended for use on desktop computers. It ensures a seamless experience with all the features functioning optimally.
-Mobile Version: A mobile version is not currently supported. Future updates will include a mobile-friendly version along with bug fixes and performance enhancements.
+- Desktop Application: This app is designed and recommended for use on desktop computers. It ensures a seamless experience with all the features functioning optimally.
+- Mobile Version: A mobile version is not currently supported. Future updates will include a mobile-friendly version along with bug fixes and performance enhancements.
 
 ## Contributions 🤝
 
