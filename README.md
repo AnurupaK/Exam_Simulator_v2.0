@@ -108,6 +108,11 @@ The app is deployed on Render. To deploy the app:
 - **Frontend/static/**: Contains all static assets like CSS, JS, and images.
 - **Frontend/templates/**: HTML templates for different pages.
 
+## Platform Compatibility 🖥️
+
+Desktop Application: This app is designed and recommended for use on desktop computers. It ensures a seamless experience with all the features functioning optimally.
+Mobile Version: A mobile version is not currently supported. Future updates will include a mobile-friendly version along with bug fixes and performance enhancements.
+
 ## Contributions 🤝
 
 We welcome contributions from the community! Here’s how you can contribute:
