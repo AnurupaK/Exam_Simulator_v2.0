@@ -136,4 +136,8 @@ We welcome contributions from the community! Here’s how you can contribute:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## Demo
+https://github.com/user-attachments/assets/33b78766-947a-4dfa-9159-3bd12a779451
+
+
 Thank you for using the **Exam Simulator App**! If you have any questions or feedback, please reach out. Happy studying! 📖✨
