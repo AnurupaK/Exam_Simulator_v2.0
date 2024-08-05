@@ -12,7 +12,7 @@ from groq import Groq
 # Initialize the Groq client
 client = Groq()
 
-# Assume conversation_history is a global dictionary to store the history of each session
+# Create conversation_history  to store the history of each session
 conversation_history = {}
 
 system_instruction = """
