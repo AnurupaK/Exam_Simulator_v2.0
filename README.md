@@ -31,6 +31,7 @@ Exam Simulator App/
 │       ├── index.html
 │       ├── student.html
 │       └── application.html
+├── modules/
 │
 ├── requirements.txt
 └── .env
