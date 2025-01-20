@@ -64,17 +64,40 @@ document.addEventListener('DOMContentLoaded', async function () {
 
 
 // Login Details Functionality
+// function setupLoginButton() {
+//     const loginBtn = document.querySelector('.login_btn');
+//     if (loginBtn) {
+//         loginBtn.addEventListener('click', async function () {
+//             console.log("Login button found");
+//             const loginDetails = await LoginDetails();
+//             alert("Details submitted") 
+//             if (loginDetails) {
+//                 console.log("Login details:", loginDetails);
+//                 Object.assign(details_collection, loginDetails);
+//             } else if (loginDetails === null) {
+//                 console.log("No details entered");
+//                 alert('No details entered');
+//             } else {
+//                 console.log("Please fill in all login details.");
+//                 alert('Please fill in all login details');
+//             }
+//         });
+//     } else {
+//         console.log("Login button not found");
+//     }
+// }
+// Login Details Functionality - modification
 function setupLoginButton() {
     const loginBtn = document.querySelector('.login_btn');
     if (loginBtn) {
         loginBtn.addEventListener('click', async function () {
             console.log("Login button found");
-            const loginDetails = await LoginDetails();
-            alert("Details submitted")
-            await loadContent('application') //modification 
-            if (loginDetails) {
+            const loginDetails = await LoginDetails(); // Get login details
+            if (loginDetails && Object.values(loginDetails).every(value => value)) {
                 console.log("Login details:", loginDetails);
                 Object.assign(details_collection, loginDetails);
+                alert("Details submitted");
+                await loadContent('application'); // Load the application page only after successful submission
             } else if (loginDetails === null) {
                 console.log("No details entered");
                 alert('No details entered');
@@ -87,6 +110,7 @@ function setupLoginButton() {
         console.log("Login button not found");
     }
 }
+
 
 async function LoginDetails() {
     const nameElement = document.querySelector('.name');
