@@ -71,6 +71,7 @@ function setupLoginButton() {
             console.log("Login button found");
             const loginDetails = await LoginDetails();
             alert("Details submitted")
+            await loadContent('application') //modification 
             if (loginDetails) {
                 console.log("Login details:", loginDetails);
                 Object.assign(details_collection, loginDetails);
