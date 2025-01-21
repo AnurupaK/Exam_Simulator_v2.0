@@ -2,6 +2,8 @@
 
 Welcome to the **Exam Simulator App**! This AI-powered desktop application leverages the Llama 8B model to provide an interactive and personalized exam experience. This is the second and most robust release, featuring login capabilities, student reviews, AI-generated papers, an AI teacher, and a dark mode calculator. Deployed on Render and powered by Flask, this app is your ultimate exam preparation tool.
 
+🎉 My project was reviewed by the incredible Krish Naik Sir! 🌟 Check out the review here: [YouTube Link](https://www.youtube.com/live/MAve4xEu3aI?si=n4PDRZ6I70KUGlb3&t=3907) 🚀 Grateful for this amazing opportunity! 🙏
+
 ## Features ✨
 
 - **User Detail Collection** 📝: Gather user details to generate customized exam papers.
